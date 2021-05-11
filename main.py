@@ -16,14 +16,15 @@ dfz1 = pd.read_csv('data1.csv')
 dfz2 = pd.read_csv('data2.csv')
 
 # Alpha (regularization strength) of LASSO regression
-lasso_eps = 0.0001 #0.1
-lasso_nalpha=20    # 1
+lasso_eps = 0.1 #0.1
+lasso_nalpha= 1    # 1
 lasso_iter=100000  # 100000
 # Min and max degree of polynomials features to consider
 degree_min = 2
 degree_max = 3
+
 # Test/train split
-train, test = train_test_split(dfz0, test_size = 0.20, shuffle = False)
+train, test = train_test_split(dfz0, test_size = 0.30, shuffle = False)
 
 print (train.to_numpy())
 print('------------------')
