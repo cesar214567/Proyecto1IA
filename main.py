@@ -11,17 +11,20 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('data2.csv')
+dfz0 = pd.read_csv('data0.csv')
+dfz1 = pd.read_csv('data1.csv')
+dfz2 = pd.read_csv('data2.csv')
 
 # Alpha (regularization strength) of LASSO regression
-lasso_eps = 0.0001
-lasso_nalpha=20
-lasso_iter=100000
+lasso_eps = 0.0001 #0.1
+lasso_nalpha=20    # 1
+lasso_iter=100000  # 100000
 # Min and max degree of polynomials features to consider
 degree_min = 2
 degree_max = 3
 # Test/train split
-train, test = train_test_split(df, test_size = 0.20, shuffle = False)
+train, test = train_test_split(dfz0, test_size = 0.20, shuffle = False)
+
 print (train.to_numpy())
 print('------------------')
 print (test.to_numpy)
@@ -57,4 +60,4 @@ for degree in range(degree_min,degree_max):
     test_score = model.score(test[['date','lat','lon','zone']].to_numpy(),test[['deaths']].to_numpy())
     print("Test score: ", test_score)
 plt.plot(test[['lon']].to_numpy(), test[['deaths']].to_numpy(), "*", color="blue")
-#plt.show()
+plt.show()
