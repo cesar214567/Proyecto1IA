@@ -1,0 +1,145 @@
+828.0024971361981
+finished adadelta mse l1
+824.6482908741527
+finished adagrad mse l1
+135.4215632937602
+finished adam mse l1
+test3/UCAYALI/mse_l1
+7.440896002662103
+finished adadelta mae l1
+22.61430621620835
+finished adagrad mae l1
+7.464447803055214
+finished adam mae l1
+test3/UCAYALI/mae_l1
+827.7569587151736
+finished adadelta mse l2
+824.4801374018587
+finished adagrad mse l2
+823.9495539381014
+finished adam mse l2
+test3/UCAYALI/mse_l2
+22.6240563487375
+finished adadelta mae l2
+22.614268189234448
+finished adagrad mae l2
+12.03574376706256
+finished adam mae l2
+test3/UCAYALI/mae_l2
+830.2752081258408
+824.6044681372232
+824.8776293621947
+test3/UCAYALI/mse
+22.68538836296031
+22.588304759650832
+22.73768191306007
+test3/UCAYALI/mae
+2500.474160610101
+finished adadelta mse l1
+42489.27163461538
+finished adagrad mse l1
+17253.044164413062
+finished adam mse l1
+test3/AREQUIPA/mse_l1
+77.87465811998416
+finished adadelta mae l1
+148.912784185165
+finished adagrad mae l1
+78.35063649446536
+finished adam mae l1
+test3/AREQUIPA/mae_l1
+27880.657145182293
+finished adadelta mse l2
+46529.2120705629
+finished adagrad mse l2
+27958.11597305689
+finished adam mse l2
+test3/AREQUIPA/mse_l2
+141.59148558592184
+finished adadelta mae l2
+175.23856969980093
+finished adagrad mae l2
+141.32546155880658
+finished adam mae l2
+test3/AREQUIPA/mae_l2
+28060.940692608172
+46440.647010216344
+27974.919411683695
+test3/AREQUIPA/mse
+141.12993563138522
+176.45345482459436
+141.2503607334235
+test3/AREQUIPA/mae
+61.08109478967
+finished adadelta mse l1
+
+766.8506657689501
+finished adagrad mse l1
+740.3052272070651
+finished adam mse l1
+test3/AMAZONAS/mse_l1
+5.686956344591293
+finished adadelta mae l1
+23.717947913701146
+finished adagrad mae l1
+8.341829591968892
+finished adam mae l1
+test3/AMAZONAS/mae_l1
+737.2885216313663
+finished adadelta mse l2
+780.6356868545902
+finished adagrad mse l2
+745.0262138604293
+finished adam mse l2
+test3/AMAZONAS/mse_l2
+22.842839864711035
+finished adadelta mae l2
+23.647642795602344
+finished adagrad mae l2
+22.80936026655679
+finished adam mae l2
+test3/AMAZONAS/mae_l2
+732.2905655699205
+789.2881271203909
+746.8837003608888
+test3/AMAZONAS/mse
+22.96910908312946
+23.73033110410697
+22.895245753357568
+test3/AMAZONAS/mae
+1166.7692529890273
+finished adadelta mse l1
+1745.2810223897297
+finished adagrad mse l1
+1142.0198828379314
+finished adam mse l1
+test3/PUNO/mse_l1
+24.12254105673896
+finished adadelta mae l1
+44.98905326260461
+finished adagrad mae l1
+24.229150858190323
+finished adam mae l1
+test3/PUNO/mae_l1
+1145.44048860338
+finished adadelta mse l2
+2720.0221744113496
+finished adagrad mse l2
+1151.7522591484917
+finished adam mse l2
+test3/PUNO/mse_l2
+27.979465908474392
+finished adadelta mae l2
+46.9110492600335
+finished adagrad mae l2
+28.090269618564182
+finished adam mae l2
+test3/PUNO/mae_l2
+1188.4237628512913
+2463.391582065158
+1151.7678748236763
+test3/PUNO/mse
+28.15137717458937
+47.81490132543776
+28.1145451731152
+test3/PUNO/mae
